@@ -11,6 +11,6 @@ package io.github.meetsandesh.module_greeting.interfaces;
  */
 public interface ModuleGreetingResponse {
     
-    public Object obeyCommand();
+    public Object obeyCommand(String typeOfGreeting);
     
 }
